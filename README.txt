@@ -1,28 +1,18 @@
-REMIX DEFAULT WORKSPACE
+# KrsnaCoin
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Embark on a journey towards financial liberation with KrsnaCoin, a cutting-edge decentralized cryptocurrency!
+Crafted with meticulous attention to security and reliability, our robust smart contract, powered by
+Solidity and OpenZeppelin, ensures a safe and transparent ecosystem for all users.
 
-This workspace contains 3 directories:
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+# Features:
 
-SCRIPTS
+💡 Seamless Deployment: Deployed flawlessly onto the Polygon AMOY testnet server, ensuring lightning-fast
+transactions and cost-effective operations.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+💰 MetaMask Integration: Easily accessible on MetaMask, enabling users worldwide to explore the boundless
+possibilities of decentralized finance with just a few clicks.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+# Screenshots
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+<img src="https://github.com/iShinzoo/krsnaCoin/blob/main/Screenshot%202024-04-22%20205842.png" alt="project-screenshot" width="800" height="400/">
